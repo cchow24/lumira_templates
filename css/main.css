@@ -35,18 +35,57 @@
 }
 
 body {
-  font-family: "ralewayregular", sans-serif;
-  margin: 0;
+    margin: 0;
+    font-family: "ralewayregular", sans-serif;
 }
 
-#header {
-  background-color: white;
+h1 {
+    font-family: raleway-bold;
+    font-size: 3em;
+    font-color: #cccccc;
 }
 
-.top-bar {
-    padding: 1.9em 2.3em 2.8em 2.3em;
+div a {
+    width: 100%;
+    display: inline-block;
+    padding: 1em 1.25em;
 }
 
+article {
+    text-align: left;
+    padding: 2rem; 
+    lin
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid {
+  color: #666766;
+}
+
+figcaption {
+  position: absolute;
+  top: 0.5em;
+  left: 1em;
+}
+
+figure {
+  position: relative;
+  margin: 0em;
+}
+
+img {
+    height: auto; 
+    width: auto;
+    max-width: 100%;
+}
+
+p {
+    font-family: raleway-light;
+    font-size: 1.2em;
+    font-color: #cccccc;
+    line-height: 2em;
+}
 .image-text{
     float: right;
     position: relative;
