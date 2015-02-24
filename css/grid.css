@@ -50,6 +50,7 @@
 .col-6of12 {
 	padding: 0.3em; 
 	width: 50%;
+	text-align: left;
 }
 
 @media (max-width: 55em) {
@@ -84,6 +85,18 @@
 	}
 }
 
+.col-3of12{
+	padding: 0.3em; 
+	width: 25%;
+	text-align: left;
+}
+
+@media (max-width: 25em) {
+	.col-3of12 {
+		width: 100%;
+	}
+}
+
 /* JANES GRID END */
 
 .col-1of12-2{
@@ -103,24 +116,8 @@
 	width: 25%;
 }
 
-
-/*.col-3of12-2{
-	float: right;
-	position: relative;
-	text-align: right;
-	top: -300px;
-	padding-right: 3em;
-	width: 25%
-}*/
-
-.image-text, .quick-view-box, .updates-events, .product-overview, .product-overview-2, .product-images, .video-navigation{
+.image-text, .quick-view-box, .updates-events, .product-images, .video-navigation{
 	clear: both;
-}
-
-.col-5of12{
-	text-align: left;
-	padding-top: 2em;
-	width: 41.666%
 }
 
 .col-5of12-2{
