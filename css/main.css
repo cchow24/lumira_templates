@@ -59,6 +59,12 @@ article {
     box-sizing: border-box;
 }
 
+img {
+    height: auto; 
+    width: auto;
+    max-width: 100%;
+}
+
 .grid {
   color: #666766;
 }
@@ -72,12 +78,6 @@ figcaption {
 figure {
   position: relative;
   margin: 0em;
-}
-
-img {
-    height: auto; 
-    width: auto;
-    max-width: 100%;
 }
 
 .header-img img {
@@ -119,6 +119,7 @@ a.button:hover, a.button:focus {
 
 a {
     text-decoration: none;
+    color: #666766;
 }
 
 .graph-table {
