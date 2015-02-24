@@ -40,7 +40,7 @@ body {
 }
 
 h1 {
-    font-family: raleway-bold;
+    font-family: "ralewaybold", sans-serif;
     font-size: 3em;
     font-color: #cccccc;
 }
@@ -81,7 +81,7 @@ img {
 }
 
 p {
-    font-family: raleway-light;
+    font-family: "ralewaylight", sans-serif;
     font-size: 1.2em;
     font-color: #cccccc;
     line-height: 2em;
