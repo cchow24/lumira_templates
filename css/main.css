@@ -164,10 +164,18 @@ a.event-wrapper:hover, a.event-wrapper:focus {
   margin-top: 1em;
 }
 
-table, th {
-  border: 1px solid #666766;
-  width: 100%;
-  height: auto;
+.tutorial-menu {
+  font-family: "ralewaybold", sans-serif;
+  border-left: 2px solid #cccccc;
+  padding: 1em;
+  display: block;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+a.tutorial-menu:hover, a.tutorial-menu:visited {
+  clear: both;
+  background-color: #cccccc;
 }
 
 .dropdown {

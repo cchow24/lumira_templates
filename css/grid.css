@@ -79,6 +79,11 @@
 	width: 33.333%;
 }
 
+.col-4of12-menu {
+	padding: 0;
+	width: 33.333%;
+}
+
 @media (max-width: 45em) {
 	.col-4of12 {
 		width: 100%;
