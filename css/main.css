@@ -228,6 +228,25 @@ textarea {
   margin-top: 1em;
 }
 
+.container{
+  display: inline-block;
+}
+
+.billing{
+  clear: both;
+  float: right;
+  padding-left: 63em;/*NEEDS TO BE FIXED, ASK JUSTIN*/
+}
+
+.payment{
+  float: right;
+}
+
+.email{
+  padding-right: 1.5em;
+  float: right;
+}
+
 
 /*Catherine's*/
 
