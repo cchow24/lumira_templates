@@ -100,12 +100,26 @@ p {
   line-height: 2em;
 }
 
+/*Catherine's*/
+
+h5 {
+  font-family: "ralewaylight", sans-serif;
+  font-size: 1.2em;
+  font-color: #666766;
+  line-height: 2em;
+  margin-bottom: 0;
+  margin-top: 1em;
+}
+/*Catherine's*/
+
+
 .image-text{
   float: right;
   position: relative;
   text-align: right;
   top: -300px;
 }
+
 
 a.button {
   font-family: "ralewaybold", sans-serif;
@@ -178,7 +192,49 @@ a.tutorial-menu:hover, a.tutorial-menu:visited {
   background-color: #cccccc;
 }
 
+/*Catherine's*/
+.contact-photo{
+  padding-left: 15em;
+}
+
+.contact-form{
+  padding-left: 5em;
+  display: inline-block;
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #E5E5E5;
+  width: 200px;
+  color: #999999;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;   
+}
+
+.text{
+  text-align: left;
+}
+
+textarea {
+  width: 400px;
+  height: 150px;
+  max-width: 400px;
+  line-height: 18px;
+}
+
+.submit{
+  float: left;
+  margin-top: 1em;
+}
+
+
+/*Catherine's*/
+
+
 .dropdown {
   float: right;
   padding-top: 1em;
   padding-right: 3em;
+
+
