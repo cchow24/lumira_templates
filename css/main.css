@@ -49,8 +49,9 @@ h1 {
 h2 {
   clear: both;
   font-family: "ralewayregular", sans-serif;
-  font-size: 1.5em;
+  font-size: 1.3em;
   color: #666766;
+  line-height: 1.7em;
 }
 
 h3 {
@@ -107,6 +108,10 @@ figcaption {
 figure {
   position: relative;
   margin: 0em;
+}
+
+figcaption h1 {
+  text-shadow: 0.05em 0.05em 0.1em #666766;
 }
 
 .header-img img {
