@@ -237,12 +237,6 @@ textarea {
   padding-left: 3em;
 }
 
-.billing{
-  clear: both;
-  float: right;
-  padding-left: 63em;/*NEEDS TO BE FIXED, ASK JUSTIN*/
-}
-
 .payment{
   float: right;
 }
@@ -250,6 +244,13 @@ textarea {
 .email{
   padding-left: 2em;
   float: left;
+  width: 90%
+}
+
+.billing{
+  padding-left: 2em;
+  float: left;
+  width: 90%;
 }
 
 .image-overview, .text-overview{
