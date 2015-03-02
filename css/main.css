@@ -100,6 +100,8 @@ p {
   line-height: 2em;
 }
 
+/*Catherine's*/
+
 h5 {
   font-family: "ralewaylight", sans-serif;
   font-size: 1.2em;
@@ -108,6 +110,8 @@ h5 {
   margin-bottom: 0;
   margin-top: 1em;
 }
+/*Catherine's*/
+
 
 .image-text{
   float: right;
@@ -188,6 +192,16 @@ a.tutorial-menu:hover, a.tutorial-menu:visited {
   background-color: #cccccc;
 }
 
+/*Catherine's*/
+.contact-photo{
+  padding-left: 15em;
+}
+
+.contact-form{
+  padding-left: 5em;
+  display: inline-block;
+}
+
 input, textarea {
   padding: 10px;
   border: 1px solid #E5E5E5;
@@ -196,21 +210,6 @@ input, textarea {
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;   
-}
-
-.rating {
-  unicode-bidi: bidi-override;
-  direction: rtl;
-}
-.rating > span {
-  display: inline-block;
-  position: relative;
-  width: 1.1em;
-}
-.rating > span:hover:before,
-.rating > span:hover ~ span:before {
-   content: "\2605";
-   position: absolute;
 }
 
 .text{
@@ -233,6 +232,11 @@ textarea {
   display: inline-block;
 }
 
+.product-overview{
+  padding-top: 2em;
+  padding-left: 3em;
+}
+
 .billing{
   clear: both;
   float: right;
@@ -244,15 +248,60 @@ textarea {
 }
 
 .email{
-  padding-right: 1.5em;
+  padding-left: 2em;
+  float: left;
 }
+
+.image-overview, .text-overview{
+  padding-top: 1.5em;
+}
+
+.image-overview2, .text-overview2{
+  padding-top: 2em;
+}
+
+.image-overview, .image-overview2, .text-overview, .text-overview2{
+  float: left;
+  text-align: left;
+}
+
+.text-overview, .text-overview2 {
+  padding-left: 1em;
+}
+
+
+
+.number{
+  float: right;
+}
+
+.number2{
+  float: right;
+}
+
+.pricing{
+  float: right;
+  padding-top: 10em;
+}
+
+.pricing2{
+  float: right;
+  padding-top: 10em;
+}
+
+
+
+
+
+
+
+
+/*Catherine's*/
+
 
 .dropdown {
   float: right;
   padding-top: 1em;
   padding-right: 3em;
 
-.videowrapper {
-  width: 100%    !important;
-  height: auto   !important;
-}
+
