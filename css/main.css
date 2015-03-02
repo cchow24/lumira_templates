@@ -37,18 +37,35 @@
 body {
   margin: 0;
   font-family: "ralewayregular", sans-serif;
+  color: #666766;
 }
 
 h1 {
   font-family: "ralewaybold", sans-serif;
   font-size: 3em;
-  font-color: #cccccc;
+  color: #efab1f;
+}
+
+h2 {
+  clear: both;
+  font-family: "ralewayregular", sans-serif;
+  font-size: 1.5em;
+  color: #666766;
 }
 
 h3 {
   font-family: "ralewaybold", sans-serif;
   font-size: 1.5em;
-  font-color: #cccccc;
+  color: #cccccc;
+}
+
+h5 {
+  font-family: "ralewaylight", sans-serif;
+  font-size: 1.2em;
+  color: #666766;
+  line-height: 2em;
+  margin-bottom: 0;
+  margin-top: 1em;
 }
 
 .headerlinks a {
@@ -81,10 +98,6 @@ img {
   max-width: 100%;
 }
 
-.grid {
-  color: #666766;
-}
-
 figcaption {
   position: absolute;
   top: 0.5em;
@@ -105,15 +118,6 @@ p {
   font-size: 1.2em;
   font-color: #666766;
   line-height: 2em;
-}
-
-h5 {
-  font-family: "ralewaylight", sans-serif;
-  font-size: 1.2em;
-  font-color: #666766;
-  line-height: 2em;
-  margin-bottom: 0;
-  margin-top: 1em;
 }
 
 .image-text{
