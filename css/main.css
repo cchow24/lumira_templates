@@ -100,8 +100,6 @@ p {
   line-height: 2em;
 }
 
-/*Catherine's*/
-
 h5 {
   font-family: "ralewaylight", sans-serif;
   font-size: 1.2em;
@@ -110,8 +108,6 @@ h5 {
   margin-bottom: 0;
   margin-top: 1em;
 }
-/*Catherine's*/
-
 
 .image-text{
   float: right;
@@ -119,7 +115,6 @@ h5 {
   text-align: right;
   top: -300px;
 }
-
 
 a.button {
   font-family: "ralewaybold", sans-serif;
@@ -152,6 +147,10 @@ a {
   padding-left: 2em;
 }
 
+.events {
+  margin-bottom: 2em;
+}
+
 .event-wrapper {
   border: 4px solid #cccccc;
   padding: 1em;
@@ -170,12 +169,35 @@ a.event-wrapper:hover, a.event-wrapper:focus {
   margin-top: 5em;
 }
 
-.secion-title {
-  padding: 2em;
-}
-
 .buttonpricingmargin {
   margin-top: 1em;
+}
+
+.rating {
+  unicode-bidi: bidi-override;
+  direction: rtl;
+}
+.rating > span {
+  display: inline-block;
+  position: relative;
+  width: 1.1em;
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+   content: "\2605";
+   position: absolute;
+}
+
+.margin-top {
+  margin-top: 1em;
+}
+
+.margin-left {
+  margin-left: 1em;
+}
+
+.margin-bottom {
+  margin-bottom: 2em;
 }
 
 .tutorial-menu {
@@ -192,16 +214,6 @@ a.tutorial-menu:hover, a.tutorial-menu:visited {
   background-color: #cccccc;
 }
 
-/*Catherine's*/
-.contact-photo{
-  padding-left: 15em;
-}
-
-.contact-form{
-  padding-left: 5em;
-  display: inline-block;
-}
-
 input, textarea {
   padding: 10px;
   border: 1px solid #E5E5E5;
@@ -212,97 +224,8 @@ input, textarea {
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;   
 }
 
-.text{
-  text-align: left;
-}
-
 textarea {
-  width: 400px;
-  height: 150px;
-  max-width: 400px;
+  width: 100%;
+  height: 100px;
   line-height: 18px;
 }
-
-.submit{
-  float: left;
-  margin-top: 1em;
-}
-
-.container{
-  display: inline-block;
-}
-
-.product-overview{
-  padding-top: 2em;
-  padding-left: 3em;
-}
-
-.payment{
-  float: right;
-}
-
-.email{
-  padding-left: 2em;
-  float: left;
-  width: 90%
-}
-
-.billing{
-  padding-left: 2em;
-  float: left;
-  width: 90%;
-}
-
-.image-overview, .text-overview{
-  padding-top: 1.5em;
-}
-
-.image-overview2, .text-overview2{
-  padding-top: 2em;
-}
-
-.image-overview, .image-overview2, .text-overview, .text-overview2{
-  float: left;
-  text-align: left;
-}
-
-.text-overview, .text-overview2 {
-  padding-left: 1em;
-}
-
-
-
-.number{
-  float: right;
-}
-
-.number2{
-  float: right;
-}
-
-.pricing{
-  float: right;
-  padding-top: 10em;
-}
-
-.pricing2{
-  float: right;
-  padding-top: 10em;
-}
-
-
-
-
-
-
-
-
-/*Catherine's*/
-
-
-.dropdown {
-  float: right;
-  padding-top: 1em;
-  padding-right: 3em;
-
-

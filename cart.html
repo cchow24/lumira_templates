@@ -14,7 +14,7 @@
 
 <body>
 
-	<div class="menu">
+	<div class="grid">
 		<div class="col-1of8">
 			<a href="home.html"><img src="img/lumiralogogray.png" alt="lumiralogogray"></a>
 		</div>
@@ -37,216 +37,134 @@
 		</div>
 	</div>
 
-		<div class="menu">
-			<div class="col-12of12">
-				<div class="title-spacing">
-					<h1>Cart</h1>
-				</div>
+	<div class="grid">
+		<div class="col-12of12">
+			<div class="title-spacing">
+				<h1>Cart</h1>
 			</div>
 		</div>
 
 
 	<div class="grid">
 		<div class="col-8of12">
-			<div class="product-overview">
-				<fieldset>
-					<legend>Overview</legend>
-					<div class="image-overview">
-						<img src="http://placehold.it/200x200" alt="placeholder">
-					</div>
-					<div class="text-overview">
-						<h2>Cloud</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
-					<div class="pricing">
-						<h3>$99.99</h3>
-						<div class="number">
+			<article id="cart">
+				<div class="margin-bottom">
+					<fieldset>
+						<legend>Overview</legend>
+						<div class="col-3of12">
+							<img src="http://placehold.it/200x200" alt="placeholder">
+						</div>
+						<div class="col-6of12">
+							<div class="margin-left">
+								<h2>Desktop</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-3of12">
+							<h3>$99.99</h3>
 							<select name="number">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
+								<option value="1">0</option>
+								<option value="2">1</option>
+								<option value="3">2</option>
+								<option value="4">3</option>
+								<option value="5">4</option>
+								<option value="6">5</option>
 							</select>
 						</div>
-					</div>
-				</fieldset>
-			</div>
+					</fieldset>
+				</div>
 
-			<div class="product-overview">
-				<fieldset>
-					<div class="image-overview2">
-						<img src="http://placehold.it/200x200" alt="placeholder">
-					</div>
-					<div class="text-overview2">
-						<h2>Cloud</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-					</div>
-
-
-					<div class="pricing2">
-						<h3>$99.99</h3>
-						<div class="number2">
+				<div class="margin-bottom">
+					<fieldset>
+						<div class="col-3of12">
+							<img src="http://placehold.it/200x200" alt="placeholder">
+						</div>
+						<div class="col-6of12">
+							<div class="margin-left">
+								<h2>Cloud</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-3of12">
+							<h3>$99.99</h3>
 							<select name="number">
-								<option value="1">1</option>
-								<option value="2">2</option>
-								<option value="3">3</option>
-								<option value="4">4</option>
+								<option value="1">0</option>
+								<option value="2">1</option>
+								<option value="3">2</option>
+								<option value="4">3</option>
+								<option value="5">4</option>
+								<option value="6">5</option>
 							</select>
 						</div>
-					</div>
-				</fieldset>
-			</div>
-
+					</fieldset>
+				</div>
+				
+				<div class="margin-bottom">
+					<fieldset>
+						<div class="col-3of12">
+							<img src="http://placehold.it/200x200" alt="placeholder">
+						</div>
+						<div class="col-6of12">
+							<div class="margin-left">
+								<h2>Server</h2>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+							</div>
+						</div>
+						<div class="col-3of12">
+							<h3>$199.99</h3>
+							<select name="number">
+								<option value="1">0</option>
+								<option value="2">1</option>
+								<option value="3">2</option>
+								<option value="4">3</option>
+								<option value="5">4</option>
+								<option value="6">5</option>
+							</select>
+						</div>
+					</fieldset>
+				</div>
+			</article>
 		</div>
-
 
 		<div class="col-4of12">
-			<div class="email">
-				<form>
-					<fieldset>
-						<legend>Email Address:</legend><h5>First Name:</h5>
-						<input type="text" name="firstname" value="Jane">
-						
-						<h5>Last Name:</h5>
-						<input type="text" name="lastname" value="Doe">
-					<div class="Login">
-							<div class="login-button">
-									<a class="button" href="cart.html">Login</a>
+			<article id="billing">
+				<div class="margin-bottom">
+					<form>
+						<fieldset>
+							<legend>Email Address:</legend>
+							<h5>First Name:</h5>
+							<input type="text" name="firstname" value="Jane">
+							<h5>Last Name:</h5>
+							<input type="text" name="lastname" value="Doe">
+							<div class="margin-top">
+								<a class="button" href="cart.html">Login</a>
+								<a class="button" href="cart.html">Create Account</a>
 							</div>
-					</div>
-
-					<div class="create-account">
-							<div class="create-button">
-									<a class="button" href="cart.html">Create Account</a>
+						</fieldset>
+					</form>
+				</div>
+				
+				<div class="margin-bottom">
+					<form>
+						<fieldset>
+							<legend>Billing Information:</legend>
+							<div class="margin-top">
+								<input type="text" name="firstname" value="First">
+								<input type="text" name="lastname" value="Last">
+								<input type="text" name="address" value="Address">
+								<input type="text" name="city" value="City">
+								<input type="text" name="country" value="Country">
+								<input type="text" name="zipcode" value="Postal Code">
+								<div class="margin-top">
+									<a class="button" href="cart.html">Continue</a>
+								</div>
 							</div>
-					</div>
-					</fieldset>
-				</form>
-			</div>
-
-			<div class="billing">
-				<form>
-					<fieldset>
-						<legend>Billing Information:</legend>
-						<input type="text" name="firstname" value="First">
-						<input type="text" name="lastname" value="Last">
-						<input type="text" name="address" value="Address">
-						<input type="text" name="city" value="City">
-						<input type="text" name="country" value="Country">
-						<input type="text" name="zipcode" value="Postal Code">
-
-					<div class="continue">
-						<div class="continue-button">
-							<a class="button" href="cart.html">Continue</a>
-						</div>
-					</div>
-
-					</fieldset>
-				</form>
-			</div>
+						</fieldset>
+					</form>
+				</div>
+			</article>
 		</div>
 	</div>
-
-
-<!--		<div class="billing">
-			<div class="col-4of12">
-				<form>
-					<fieldset>
-						<legend>Billing Information:</legend>
-						<input type="text" name="firstname" value="First">
-						<input type="text" name="lastname" value="Last">
-						<input type="text" name="address" value="Address">
-						<input type="text" name="city" value="City">
-						<input type="text" name="country" value="Country">
-						<input type="text" name="zipcode" value="Postal Code">
-
-					<div class="continue">
-						<div class="continue-button">
-							<a class="button" href="cart.html">Continue</a>
-						</div>
-					</div>
-
-					</fieldset>
-				</form>
-			</div>
-		</div>
-
-		<div class="payment">
-			<div class="col-4of12">
-				<form>
-					<fieldset>
-						<legend>Payment:</legend>
-						<input type="text" name="creditcard" value="xxxx-xxxx-xxxx-xxxx">
-						
-						<h5>Expiry Date:</h5>
-						<select name="months">
-						<option value="jan">01 Jan</option>
-						<option value="feb">02 Feb</option>
-						<option value="mar">03 Mar</option>
-						<option value="apr">04 Apr</option>
-						<option value="may">05 May</option>
-						<option value="jun">06 Jun</option>
-						<option value="jul">07 Jul</option>
-						<option value="aug">08 Aug</option>
-						<option value="sept">09 Sept</option>
-						<option value="oct">10 Oct</option>
-						<option value="nov">11 Nov</option>
-						<option value="dec">12 Dec</option>
-						</select>
-
-						<select name="day">
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-						<option value="10">10</option>
-						<option value="11">11</option>
-						<option value="12">12</option>
-						<option value="13">13</option>
-						<option value="14">14</option>
-						<option value="15">15</option>
-						<option value="16">16</option>
-						<option value="17">17</option>
-						<option value="18">18</option>
-						<option value="19">19</option>
-						<option value="20">20</option>
-						<option value="21">21</option>
-						<option value="22">22</option>
-						<option value="23">23</option>
-						<option value="24">24</option>
-						<option value="25">25</option>
-						<option value="26">26</option>
-						<option value="27">27</option>
-						<option value="28">28</option>
-						<option value="29">29</option>
-						<option value="30">30</option>
-						<option value="31">31</option>
-						</select>
-						<input type="text" name="security" value="security code">
-
-					<div class="continue">
-						<div class="continue-button">
-							<a class="button" href="cart.html">Continue</a>
-						</div>
-					</div>
-					</fieldset>
-				</form>
-			</div>
-		</div>
-
-
-	</div>-->
-
-
-
-
-
-
 
 	<div class="menu">
 		<div class="col-12of12">
