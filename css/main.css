@@ -55,10 +55,17 @@ h3 {
   width: 100%;
   display: inline-block;
   padding: 1em 1.25em;
+  border-bottom: 4px solid white;
+  box-sizing: border-box;
 }
 
-.headerlinks a:hover, a:active, a:visited {
+.headerlinks a:hover, a:active {
   border-bottom: 4px solid #666766;
+}
+
+.cartbutton {
+  font-family: "ralewaybold", sans-serif;
+  color: #efab1f;
 }
 
 article {
