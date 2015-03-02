@@ -188,6 +188,10 @@ a.event-wrapper:hover, a.event-wrapper:focus {
    position: absolute;
 }
 
+fieldset {
+  border: 1px solid #666766;
+}
+
 .margin-top {
   margin-top: 1em;
 }
@@ -222,12 +226,16 @@ a.tutorial-menu:hover, a.tutorial-menu:visited {
 input, textarea {
   padding: 0.9em;
   margin-bottom: 1em;
-  border: 1px solid #E5E5E5;
+  border: 1px solid #cccccc;
   width: 100%;
-  color: #999999;
+  color: #cccccc;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;   
+}
+
+legend {
+  font-family: 'ralewaybold', sans-serif;
 }
 
 textarea {
