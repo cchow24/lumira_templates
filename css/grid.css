@@ -10,6 +10,14 @@
 	text-align: center;
 }
 
+/*Catherine*/
+.grid {
+     margin-left: auto;
+     margin-right: auto;
+     width: 95%;
+}
+
+
 /* JANES GRID */
 .col-1of8 {
 	float: left;
@@ -152,4 +160,5 @@
 	display: block;
 	clear: both;
 }
+
 
