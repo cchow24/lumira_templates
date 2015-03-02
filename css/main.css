@@ -200,6 +200,11 @@ a.event-wrapper:hover, a.event-wrapper:focus {
   margin-bottom: 2em;
 }
 
+.side-margin {
+  margin-right: 0.3em;
+  margin-left: 0.3em;
+}
+
 .tutorial-menu {
   font-family: "ralewaybold", sans-serif;
   border-left: 2px solid #cccccc;
@@ -215,9 +220,10 @@ a.tutorial-menu:hover, a.tutorial-menu:visited {
 }
 
 input, textarea {
-  padding: 10px;
+  padding: 0.9em;
+  margin-bottom: 1em;
   border: 1px solid #E5E5E5;
-  width: 200px;
+  width: 100%;
   color: #999999;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 8px;

@@ -132,13 +132,22 @@
 					<form>
 						<fieldset>
 							<legend>Email Address:</legend>
-							<h5>First Name:</h5>
-							<input type="text" name="firstname" value="Jane">
-							<h5>Last Name:</h5>
-							<input type="text" name="lastname" value="Doe">
 							<div class="margin-top">
-								<a class="button" href="cart.html">Login</a>
-								<a class="button" href="cart.html">Create Account</a>
+								<div class="col-6of12">
+									<input type="text" name="firstname" value="First Name">
+								</div>
+								<div class="col-6of12">
+									<input type="text" name="lastname" value="Last Name">
+								</div>
+								<div class="side-margin">
+									<div class="col-12of12">
+										<input type="text" name="lastname" value="Email">
+									</div>
+								</div>
+								<div class="col-12of12">
+									<a class="button" href="cart.html">Login</a>
+									<a class="button" href="cart.html">Create Account</a>
+								</div>
 							</div>
 						</fieldset>
 					</form>
@@ -155,86 +164,62 @@
 								<input type="text" name="city" value="City">
 								<input type="text" name="country" value="Country">
 								<input type="text" name="zipcode" value="Postal Code">
-								<div class="margin-top">
-									<a class="button" href="cart.html">Continue</a>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="margin-bottom">
+					<form>
+						<fieldset>
+							<legend>Payment:</legend>
+							<div class="margin-top">
+								<div class="side-margin">
+									<input type="text" name="creditcard" value="Card Number   xxxx-xxxx-xxxx-xxxx">
+								</div>
+
+								<div class="col-6of12">
+									<select name="months">
+									<option value="jan">01</option>
+									<option value="feb">02</option>
+									<option value="mar">03</option>
+									<option value="apr">04</option>
+									<option value="may">05</option>
+									<option value="jun">06</option>
+									<option value="jul">07</option>
+									<option value="aug">08</option>
+									<option value="sept">09</option>
+									<option value="oct">10</option>
+									<option value="nov">11</option>
+									<option value="dec">12</option>
+									</select>
+
+									<select name="year">
+									<option value="1">15</option>
+									<option value="2">16</option>
+									<option value="3">17</option>
+									<option value="4">18</option>
+									<option value="5">19</option>
+									<option value="6">20</option>
+									</select>
+								</div>
+								<div class="col-6of12">
+									<input type="text" name="security" value="Security Code">
 								</div>
 							</div>
 						</fieldset>
+						<div class="col-12of12">
+							<article id="billing">
+								<a class="button" href="cart.html">Continue Shopping</a>
+								<a class="button" href="cart.html">Checkout</a>
+							</article>
+						</div>
+
 					</form>
 				</div>
 			</article>
 		</div>
 	</div>
-
-<!--PAYMENT
-				<div class="payment">
-				<form>
-					<fieldset>
-						<legend>Payment:</legend>
-						<input type="text" name="creditcard" value="xxxx-xxxx-xxxx-xxxx">
-						
-						<h5>Expiry Date:</h5>
-						<select name="months">
-						<option value="jan">01 Jan</option>
-						<option value="feb">02 Feb</option>
-						<option value="mar">03 Mar</option>
-						<option value="apr">04 Apr</option>
-						<option value="may">05 May</option>
-						<option value="jun">06 Jun</option>
-						<option value="jul">07 Jul</option>
-						<option value="aug">08 Aug</option>
-						<option value="sept">09 Sept</option>
-						<option value="oct">10 Oct</option>
-						<option value="nov">11 Nov</option>
-						<option value="dec">12 Dec</option>
-						</select>
-
-						<select name="day">
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-						<option value="10">10</option>
-						<option value="11">11</option>
-						<option value="12">12</option>
-						<option value="13">13</option>
-						<option value="14">14</option>
-						<option value="15">15</option>
-						<option value="16">16</option>
-						<option value="17">17</option>
-						<option value="18">18</option>
-						<option value="19">19</option>
-						<option value="20">20</option>
-						<option value="21">21</option>
-						<option value="22">22</option>
-						<option value="23">23</option>
-						<option value="24">24</option>
-						<option value="25">25</option>
-						<option value="26">26</option>
-						<option value="27">27</option>
-						<option value="28">28</option>
-						<option value="29">29</option>
-						<option value="30">30</option>
-						<option value="31">31</option>
-						</select>
-						<input type="text" name="security" value="security code">
-
-					<div class="continue">
-						<div class="continue-button">
-							<a class="button" href="cart.html">Continue</a>
-						</div>
-					</div>
-					</fieldset>
-				</form>
-			</div>-->
-
-
-
 
 	<div class="menu">
 		<div class="col-12of12">
