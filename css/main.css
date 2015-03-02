@@ -247,13 +247,15 @@ textarea {
   float: right;
 }
 
+.videowrapper {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
 
 /*Catherine's*/
-
 
 .dropdown {
   float: right;
   padding-top: 1em;
   padding-right: 3em;
-
-
