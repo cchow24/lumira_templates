@@ -57,7 +57,7 @@ h2 {
 h3 {
   font-family: "ralewaybold", sans-serif;
   font-size: 1.5em;
-  color: #cccccc;
+  color: #666766;
 }
 
 h5 {
@@ -136,8 +136,8 @@ a.button {
   font-family: "ralewaybold", sans-serif;
   display: block;
   padding: 0.5em 0.75em;
-  color: #666766;
-  border-color: #666766;
+  color: #efab1f;
+  border-color: #efab1f;
   border-radius: 0em;
   border-style: solid;
   border-width: 4px;
@@ -149,7 +149,7 @@ a.button {
 }
 
 a.button:hover, a.button:focus {
-  background-color: #666766;
+  background-color: #efab1f;
   color: #fff;
 }
 
