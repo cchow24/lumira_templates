@@ -60,6 +60,12 @@ h3 {
   color: #666766;
 }
 
+h4 {
+  font-family: "ralewaybold", sans-serif;
+  font-size: 1.5em;
+  color: #efab1f;
+}
+
 h5 {
   font-family: "ralewaylight", sans-serif;
   font-size: 1.2em;
@@ -69,21 +75,33 @@ h5 {
   margin-top: 1em;
 }
 
+.checkoutlinks {
+  color: #efab1f;
+  font-family: "ralewaybold", sans-serif;
+  border-bottom: 4px solid #efab1f;
+}
+
 .headerlinks a {
   width: 100%;
   display: inline-block;
   padding: 1em 1.25em;
   border-bottom: 4px solid white;
-  box-sizing: border-box;
 }
 
-.headerlinks a:hover, a:active {
+.headerlinks a:hover {
   border-bottom: 4px solid #efab1f;
 }
 
 .cartbutton {
   font-family: "ralewaybold", sans-serif;
+  color: #666766;
+  text-transform: uppercase;
+}
+
+.checkoutcart {
+  font-family: "ralewaybold", sans-serif;
   color: #efab1f;
+  text-transform: uppercase;
 }
 
 article {
@@ -225,6 +243,10 @@ fieldset {
   margin-left: 0.3em;
 }
 
+.lumiramargins {
+  margin: 0em 3em 0em 3em;
+}
+
 .tutorial-menu {
   font-family: "ralewaybold", sans-serif;
   border-left: 2px solid #cccccc;
@@ -258,8 +280,4 @@ textarea {
   width: 100%;
   height: 100px;
   line-height: 18px;
-}
-
-.checkoutlinks {
-  color: #efab1f;
 }
