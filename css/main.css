@@ -319,3 +319,8 @@ textarea {
   height: 100px;
   line-height: 18px;
 }
+
+.visited {
+  clear: both;
+  background-color: #cccccc;
+}
