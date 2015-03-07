@@ -119,8 +119,8 @@ article {
 
 img {
   height: auto; 
-  width: auto;
   max-width: 100%;
+  overflow: hidden;
 }
 
 figcaption {
@@ -139,7 +139,11 @@ figcaption h1 {
 }
 
 .header-img img {
-  min-height: 16.5em;
+  min-height: 30em;
+}
+
+.logoimage {
+  max-width: 9em;
 }
 
 p {
