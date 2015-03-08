@@ -34,6 +34,89 @@
   font-style: normal;
 }
 
+@font-face {
+    font-family: 'si';
+    src: url('socicon.eot');
+    src: url('socicon.eot?#iefix') format('embedded-opentype'),
+         url('socicon.woff') format('woff'),
+         url('socicon.ttf') format('truetype'),
+         url('socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(PATH_TO/socicon.svg) format(svg);
+    }
+}
+
+.soc {
+    overflow:hidden;
+    margin:0;
+    padding: 1.5em 0 0 0;
+    list-style:none;
+    text-align: right;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 19px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    border-radius: 100px;
+    margin-right: 10px;
+    color: #ffffff;
+    background-color: #cccccc;
+}
+
+.soc a:hover {
+  background-color: #efab1f;
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter:before {
+    content:'a';
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-linkedin:before {
+    content:'j';
+}
+.soc-instagram:before {
+    content:'x';
+}
+
 body {
   margin: 0;
   font-family: "ralewayregular", sans-serif;
