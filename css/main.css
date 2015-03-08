@@ -293,6 +293,14 @@ fieldset {
   margin: 0em 3em 0em 3em;
 }
 
+.allmargin {
+  margin: 2em;
+}
+
+.centeralign {
+  text-align: center;
+}
+
 .tutorial-menu {
   font-family: "ralewaybold", sans-serif;
   border-left: 2px solid #cccccc;
