@@ -423,3 +423,8 @@ textarea {
   clear: both;
   background-color: #cccccc;
 }
+
+.justifytext {
+  text-align: justify;
+  text-justify: inter-word;
+}
