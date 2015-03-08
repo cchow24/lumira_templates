@@ -98,6 +98,10 @@ h6 {
   border-bottom: 4px solid #efab1f;
 }
 
+.header-text{
+  padding-top: 0.5em;
+}
+
 .cartbutton {
   font-family: "ralewaybold", sans-serif;
   color: #666766;
