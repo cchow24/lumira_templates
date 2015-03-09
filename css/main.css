@@ -228,8 +228,10 @@ figcaption h1 {
 .header-img img {
   height: auto; 
   width: 100%;
-  overflow: hidden;
   min-height: 30em;
+  min-width: 80.875em;
+  overflow: auto;
+
 }
 
 .logoimage {
