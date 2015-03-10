@@ -424,6 +424,11 @@ fieldset {
   margin: 2em;
 }
 
+.contactmargins {
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
 .centeralign {
   text-align: center;
 }
@@ -471,4 +476,8 @@ textarea {
 .justifytext {
   text-align: justify;
   text-justify: inter-word;
+}
+
+.displayblock {
+  display: block;
 }
