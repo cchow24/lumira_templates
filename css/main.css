@@ -164,6 +164,15 @@ h6 {
   color: #efab1f;
 }
 
+#contact2 label, #feedback2 label {
+  font-family: "ralewaylight", sans-serif;
+  font-size: 1.2em;
+  color: #666766;
+  line-height: 2em;
+  /*margin-bottom: 0;*/
+  margin-top: 1em;
+}
+
 .checkoutlinks {
   color: #efab1f;
   font-family: "ralewaybold", sans-serif;
@@ -336,7 +345,9 @@ a.event-wrapper:hover, a.event-wrapper:focus {
 .rating {
   unicode-bidi: bidi-override;
   direction: rtl;
+  display: inline-block;
 }
+
 .rating > span {
   display: inline-block;
   position: relative;
