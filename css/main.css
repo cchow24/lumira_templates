@@ -179,6 +179,30 @@ h6 {
   border-bottom: 4px solid #efab1f;
 }
 
+.home-header-wrapper {
+  background: url("homeheader.jpg");
+  background-size: cover;
+  min-height: 30em;
+}
+
+@media (max-width: 35em) {
+  .home-header-wrapper {
+    min-height: 35em;
+  }
+}
+
+.about-header-wrapper {
+  background: url("aboutheader.jpg");
+  background-size: cover;
+  min-height: 30em;
+}
+
+.learning-header-wrapper {
+  background: url("learningheader.jpg");
+  background-size: cover;
+  min-height: 30em;
+}
+
 .headerlinks a {
   width: 100%;
   display: inline-block;
@@ -232,15 +256,6 @@ figure {
 
 figcaption h1 {
   text-shadow: 0.03em 0.03em 0.05em #666766;
-}
-
-.header-img img {
-  height: auto; 
-  width: 100%;
-  min-height: 30em;
-  min-width: 80.875em;
-  overflow: auto;
-
 }
 
 .logoimage {
