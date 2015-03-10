@@ -203,6 +203,18 @@ h6 {
   min-height: 30em;
 }
 
+.product-header-wrapper {
+  background: url("productheader.jpg");
+  background-size: cover;
+  min-height: 30em;
+}
+
+@media (max-width: 35em) {
+  .product-header-wrapper {
+    min-height: 32em;
+  }
+}
+
 .headerlinks a {
   width: 100%;
   display: inline-block;
