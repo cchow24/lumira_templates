@@ -435,16 +435,17 @@ fieldset {
 
 .tutorial-menu {
   font-family: "ralewaybold", sans-serif;
-  border-left: 2px solid #cccccc;
+  border-left: 2px solid white;
+  background-color: #cccccc;
   padding: 1em;
   display: block;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
 
-a.tutorial-menu:hover, a.tutorial-menu:visited {
-  clear: both;
-  background-color: #cccccc;
+a.tutorial-menu:hover {
+  background-color: #efab1f;
+  color: white;
 }
 
 input, textarea {
@@ -470,7 +471,19 @@ textarea {
 
 .visited {
   clear: both;
-  background-color: #cccccc;
+  font-family: "ralewaybold", sans-serif;
+  background-color: #efab1f;
+  color: white;
+  padding: 1em;
+}
+
+.visited2 {
+  clear: both;
+  border-left: 2px solid white;
+  font-family: "ralewaybold", sans-serif;
+  background-color: #efab1f;
+  color: white;
+  padding: 1em;
 }
 
 .justifytext {
